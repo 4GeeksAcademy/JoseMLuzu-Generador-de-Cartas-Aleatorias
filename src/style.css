@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  width: 500px;
+  height: 700px;
+  background-color: white;
+  font-size: 24px;
+  display: flex;
+  margin: auto;
+  border-radius: 3%;
+  margin-top: 100px;
+}
+
+button {
+  display: flex;
+  margin: auto;
+  border-radius: 3%;
+  margin-top: 50px;
+}
+
+#palo1 {
+  font-size: 120px;
+  text-align: start;
+  padding-left: 25px;
+  margin-top: -25px;
+}
+
+#palo2 {
+  font-size: 120px;
+  text-align: end;
+  padding-right: 25px;
+  margin-top: 25px;
+}
+
+#numero {
+  text-align: center;
+  font-size: 200px;
+}
+
+button {
+  text-align: center;
+  display: flex;
+}
+
+.rojo {
+  color: red;
+}
+
+.negro {
+  color: black;
+}
